@@ -1,0 +1,39 @@
+{
+  "name": "mil-clientapp-services",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "babel-cli": "^6.26.0",
+    "bcrypt": "^5.0.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.1",
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "express-validator": "^6.14.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^5.5.0",
+    "mongoose": "^6.1.9",
+    "morgan": "~1.9.1",
+    "mssql": "^7.3.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node": "^17.3.0",
+    "node-datetime": "^2.1.2",
+    "save": "^2.4.0",
+    "sequelize": "^7.0.0-alpha.4",
+    "stream": "0.0.2",
+    "tedious": "^14.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
